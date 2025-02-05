@@ -17,16 +17,19 @@
 // GOOD LUCK 😀
 let markMass = 50;
 let johnMass = 60;
-let markHeight = 170;
-let johnHeight = 190;
+let markHeight = 1.70;  
+let johnHeight = 1.90;  
 let markBMI, johnBMI, markHigherBMI;
 
-function claculate_bmi(mass, height) {
-    return mass / (height ** 2);
+function calculate_bmi(mass, height) {
+    return mass / (height * height);
 }
 
-markBMI = claculate_bmi(markMass, markHeight)
-johnBMI = claculate_bmi(johnMass, johnHeight)
+markBMI = calculate_bmi(markMass, markHeight);
+johnBMI = calculate_bmi(johnMass, johnHeight);
 
-console.log(markBMI, johnBMI)
+console.log(markBMI, johnBMI);
 markHigherBMI = markBMI > johnBMI;
+
+console.log("Mark has a higher BMI:", markHigherBMI);
+

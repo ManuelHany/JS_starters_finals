@@ -40,3 +40,4 @@ console.log(typeof null);
 2. typeof is an operator same as `+` and `-`.
 3. the console has access in real time to all the varibales int running script in vs code.
 4. for documentation use `https://developer.mozilla.org/en-US/`.
+5. It's preferred to use `const` in declarations.
