@@ -1,6 +1,6 @@
 /*
 let js = 'amazing';
-console.log(40 + 8 + 23 - 10);
+  console.log(40 + 8 + 23 - 10);
 
 console.log("Jonas");
 console.log(23);
@@ -46,7 +46,24 @@ job = 'teatcher'
 
 lastName = 'Schmedtmann';
 console.log(lastName);
-*/
 let x, y;
 x = y = 25 - 10 - 5;
 console.log(x, y)
+
+console.log(`ana wenta 3adadna ${2} laken da mesh ma3nah eno lama 7ad yezeed haneb2a ${3}`)
+console.log('String with \n\
+multiple \n\
+lines')
+console.log(`string
+with
+multiple 
+lines`);
+*/
+
+const age = 15;
+if (age >= 18) {
+    console.log('Sarah can start driving license 🚗')
+} else {
+    const yearsLeft = 18 - age;
+    console.log(`Sarah is too young. Wait another ${yearsLeft} years :)`)
+}

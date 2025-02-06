@@ -41,3 +41,26 @@ console.log(typeof null);
 3. the console has access in real time to all the varibales int running script in vs code.
 4. for documentation use `https://developer.mozilla.org/en-US/`.
 5. It's preferred to use `const` in declarations.
+6.
+
+```javascript
+// if else control structure be like
+if(){
+
+} else {
+
+}
+```
+
+7. `NaN` -> an invalid nubmer.
+8. Conversion and Coercion -> Conversion is manually type casting a value Coercion is java scripts work it, Number is the dominant in subtraction and String is the dominant in addition.
+
+### Strings
+
+1. you can use `` to just like f strings in python.
+
+```javascript
+`this is string concatinated with an integer ${5}`;
+```
+
+2. you can either print multiple lines by adding `\n\` in a normal string or simple press return inside a `` string.
