@@ -90,7 +90,7 @@ if (height) {
     console.log('Height is UNDEFINED')
 }
 console.log(height)
-*/
+
 
 const age = '18';
 if (age === 18) console.log('You just became an adult :D (strict)');
@@ -107,3 +107,39 @@ console.log(typeof favourite);
 if (favourite === 23) {
     console.log('Cool! 23 is an amazing number!')
 }
+
+const day = 'saturday';
+
+switch (day) {
+    case 'monday': // day === 'monday'
+      console.log('Plan course structure');
+      console.log('Go to coding meetup');
+      break;
+    case 'tuesday':
+      console.log('Prepare theory videos');
+      break;
+    case 'wednesday':
+    case 'thursday':
+      console.log('Write code examples');
+      break;
+    case 'friday':
+      console.log('Record videos');
+      break;
+    case 'saturday' || 'sunday':
+      console.log('Enjoy the weekend :D');
+      break;
+    default:
+      console.log('Not a valid day!');
+  }
+
+  
+
+age = 12
+const drink = age >= 18 ? 'Wine 🍷' : 'water 💧'
+console.log(drink)
+console.log(`I like to drink ${age >= 18 ? 'Wine 🍷' : 'water 💧'}`)
+*/
+const bill = 40;
+const tip = bill * (bill >= 50 && bill <= 300 ? 0.15 : 0.2);
+
+console.log(`The bill was ${bill}, the tip was ${tip}, and the total value ${bill + tip}`)
