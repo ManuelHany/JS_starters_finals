@@ -58,7 +58,7 @@ console.log(`string
 with
 multiple 
 lines`);
-*/
+
 
 const age = 15;
 if (age >= 18) {
@@ -66,4 +66,44 @@ if (age >= 18) {
 } else {
     const yearsLeft = 18 - age;
     console.log(`Sarah is too young. Wait another ${yearsLeft} years :)`)
+}
+
+console.log(Boolean(0));
+console.log(Boolean(undefined));
+console.log(Boolean('Jonas'));
+console.log(Boolean({}));
+console.log(Boolean(''))
+
+// const money = 100;
+const money = 0;
+if (money) {
+    console.log("Don't spend it all ;)");
+} else {
+    console.log('You should get a job!');
+}
+
+let height;
+// let hiegh = 0;
+if (height) {
+    console.log('YAY! Height is efined');
+} else {
+    console.log('Height is UNDEFINED')
+}
+console.log(height)
+*/
+
+const age = '18';
+if (age === 18) console.log('You just became an adult :D (strict)');
+
+if (age == 18) console.log('You just became an aduld :D (loose)');
+
+const favourite = Number(prompt("What's your favourite number?"));
+console.log(favourite);
+console.log(typeof favourite);
+
+// if (favourite == 23) {
+//     console.log('Cool! 23 is an amazing number!')
+// }
+if (favourite === 23) {
+    console.log('Cool! 23 is an amazing number!')
 }
