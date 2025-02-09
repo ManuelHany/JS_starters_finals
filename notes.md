@@ -86,7 +86,12 @@ if(){
 ```
 
 7. `NaN` -> an invalid nubmer.
-8. Conversion and Coercion -> Conversion is manually type casting a value Coercion is java scripts work it, Number is the dominant in subtraction and String is the dominant in addition.
+8. Conversion and Coercion -> Conversion is manually type casting a value Coercion is java scripts work it, `Number` is the dominant in subtraction and `String` is the dominant in addition.
+9. 5 falsy values: `0`, `''`, `undefined`, `null`, and `NaN`.
+10. - undefined -> is a declared variable e.g. `let x;` but with no assigned value. Will not cause compliation error.
+    - not defined -> is neither initialized nor declared variable. and it causes errors. `not defined`.
+11. - `===` -> strict euqlity operator does not do coertion.
+    - `==` -> loose equality operator does do coertion so `23` is equal to `"23"`
 
 9. - `&&` -> and
    - `||` -> or
