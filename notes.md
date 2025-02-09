@@ -46,8 +46,10 @@ console.log(typeof null);
 
 ### Functions
 
+- `declaration` functions, function `expressions` and `arrow` functions.
 - function declarations gets a name while function expressions has no name actually.
 - function declaration can be called befor usage while function expressions must be called before usage.
+- arrow function are even simpler than function expressions but they dont get the keyword `this`.
 
 ```javascript
 // Function Declarations vs. Expressions
@@ -93,15 +95,15 @@ if(){
 11. - `===` -> strict euqlity operator does not do coertion.
     - `==` -> loose equality operator does do coertion so `23` is equal to `"23"`
 
-9. - `&&` -> and
-   - `||` -> or
-   - `===` -> strict equal
-   - `==` -> loose equal
-   - `!=` -> not equal to
-   - `!` -> not!
-   - `?` -> conditional operator (ternary operator) `expression ? value if true ' value if false`
+12. - `&&` -> and
+    - `||` -> or
+    - `===` -> strict equal
+    - `==` -> loose equal
+    - `!=` -> not equal to
+    - `!` -> not!
+    - `?` -> conditional operator (ternary operator) `expression ? value if true ' value if false`
 
-10. 'use strict' -> strict mode that allows to reduce and forbid some potential errors and also shows the developer any error.
+13. 'use strict' -> strict mode that allows to reduce and forbid some potential errors and also shows the developer any error.
 
-11. `parameters` are the place holder, the name of the variables that should be passed that is written in the function signature.
-12. `arguments` are the actual values that were passed during the function call.
+14. `parameters` are the place holder, the name of the variables that should be passed that is written in the function signature.
+15. `arguments` are the actual values that were passed during the function call.
