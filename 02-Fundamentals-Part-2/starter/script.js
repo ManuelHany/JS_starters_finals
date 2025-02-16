@@ -38,7 +38,6 @@ const yearsUntilRetirement = (birthYeah, firstName) => {
 }
 
 console.log(yearsUntilRetirement(1991, 'Jonas')); console.log(yearsUntilRetirement(1980, 'Bob'));
-*/
 
 const calcAverage = (s1, s2, s3) => (s1 + s2 + s3) / 3;
 // const scoreDolphins = calcAverage(44,23, 71);
@@ -56,3 +55,33 @@ function checkWinner(scoreDolphins, scoreKoalas) {
         console.log("No team wins...")
     }
 }
+
+
+const jonas = {
+  firstName: 'Jonas',
+  lastName: 'Schmedtmann',
+  age: 2037 - 1991,
+  job: 'teacher',
+  friends: ['Michael', 'Peter', 'Steven']
+};
+*/
+
+const jonas = {
+    firstName: 'Jonas',
+    lastName: 'Schmedtmann',
+    birthYeah: 1991,
+    job: 'teacher',
+    friends: ['Michael', 'Peter', 'Steven'],
+    hasDriversLicense: true,
+
+    calcAge: function () {
+        this.age = 2037 - this.birthYeah;
+        return this.age;
+  },
+
+    calcSummery: function () {
+        return `${this.firstName} is a ${this.calcAge()}-year old ${this.job}, and he has ${this.hasDriversLicense ? 'a' : 'no'} driver's license`
+    }
+}
+
+console.log(jonas.calcSummery())
