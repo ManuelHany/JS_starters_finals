@@ -90,8 +90,7 @@ console.log(age1, age2);
 3. the console has access in real time to all the varibales int running script in vs code.
 4. for documentation use `https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_precedence`.
 5. It's preferred to use `const` in declarations.
-6. 
-
+6.
 ```javascript
 // if else control structure be like
 if(){
@@ -100,7 +99,6 @@ if(){
     //another code
 }
 ```
-
 7. `NaN` -> an invalid nubmer.
 8. Conversion and Coercion -> Conversion is manually type casting a value Coercion is java scripts work it, `Number` is the dominant in subtraction and `String` is the dominant in addition.
 9. 5 falsy values: `0`, `''`, `undefined`, `null`, and `NaN`.

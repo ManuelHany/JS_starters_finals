@@ -64,7 +64,7 @@ const jonas = {
   job: 'teacher',
   friends: ['Michael', 'Peter', 'Steven']
 };
-*/
+
 
 const jonas = {
     firstName: 'Jonas',
@@ -85,3 +85,14 @@ const jonas = {
 }
 
 console.log(jonas.calcSummery())
+
+ */
+
+const jonasArray = [
+  'Jonas',
+  'Schmedtmann',
+  2037 - 1991,
+  'teacher',
+  ['Michael', 'Peter', 'Steven']
+];
+
