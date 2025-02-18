@@ -84,6 +84,37 @@ console.log(age1, age2);
 11. `.length` is a property that is available on all arrays.
 12. Arrays are also objects.
 
+### HTML & CSS:
+
+1. You can use certain attributes with certin tags.
+2. Attributes are mainly standard but you can use your own by adding `data-yourCustomAttribute`.
+3. Tags are mainly constrained when it comse to naming.
+4. Tags could be divided to `block` elements and `inline` elements.
+   | Feature | Block Elements | Inline Elements |
+   |----------------------------------|----------------|-----------------|
+   | Starts on a new line? | ✅ Yes | ❌ No |
+   | Takes full width by default? | ✅ Yes | ❌ No |
+   | Can contain block elements? | ✅ Yes | ❌ No |
+   | Common use cases | Layout structure | Styling text, links |
+5. Clsses and IDs are mainly used in identyfying elements.
+6. IDs must be uniuqe while classes don't.
+7. There are multiple ways to create boxes in HTML, `div` is a generic one of them, `form` has is semantic and has more meaning.
+8. Some tags does not have closing tag, like `img`, `button` ..etc.
+9. In CSS not when you inherit fonts, not all elements inherit them because some like `h1` has their own predefined fonts unless you change them.
+10. The box model is one of the most fundamental parts in CSS, That's because it's the main factor that affects how elements are displayed on a webpage and also how they are sized..
+    ![Alt text](static/images/css_box_model.png)
+11. The `*` selector selects all the elements.
+
+```css
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+```
+
+12. There are many units likc `px`, `%`, `m` ...etc.
+
 ### general:
 
 1. Variable Types can change for example start as int and then be string.
