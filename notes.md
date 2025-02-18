@@ -70,15 +70,16 @@ console.log(age1, age2);
 ```
 
 ### arrays & objects:
+
 1. arrays are almost exactly as lists in python.
 2. use `.push` to add element at the end of the array.
-3. use `.unshift` to add elmeent at the begining of the array 
-4. use `.pop` to remove the last element of the array and return it. 
+3. use `.unshift` to add elmeent at the begining of the array
+4. use `.pop` to remove the last element of the array and return it.
 5. use `.shift` to remove the first element in the array.
-6. use `.undexOf` to return the index of an element.  
-7. use `.includes` to check if element is included in an array.  
+6. use `.undexOf` to return the index of an element.
+7. use `.includes` to check if element is included in an array.
 8. It's bettr to give arrays a plural name.
-9. An object is almost exactly as the dict in python. 
+9. An object is almost exactly as the dict in python.
 10. In arrays the order matters alot of the element, however in objects it doesn't matter (same as dicts in python)
 11. `.length` is a property that is available on all arrays.
 12. Arrays are also objects.
@@ -91,6 +92,7 @@ console.log(age1, age2);
 4. for documentation use `https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_precedence`.
 5. It's preferred to use `const` in declarations.
 6.
+
 ```javascript
 // if else control structure be like
 if(){
@@ -99,6 +101,7 @@ if(){
     //another code
 }
 ```
+
 7. `NaN` -> an invalid nubmer.
 8. Conversion and Coercion -> Conversion is manually type casting a value Coercion is java scripts work it, `Number` is the dominant in subtraction and `String` is the dominant in addition.
 9. 5 falsy values: `0`, `''`, `undefined`, `null`, and `NaN`.
@@ -119,3 +122,5 @@ if(){
 
 14. `parameters` are the place holder, the name of the variables that should be passed that is written in the function signature.
 15. `arguments` are the actual values that were passed during the function call.
+16. there is `console.warn()`, `console.error()` and `console.table()`
+17. you can use the debugger either by breakpoints in sources tab inside the browser or by using the `debugger` keyword insid our code.
