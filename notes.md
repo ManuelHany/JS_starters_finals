@@ -114,6 +114,9 @@ console.log(age1, age2);
 ```
 
 12. There are many units likc `px`, `%`, `m` ...etc.
+13. all css properties that are named like `background-color` in css are accessed by javascript within DOM by camel case like `backgroundColor`.
+
+14. Any property value accessed through JS should be written within `'string'` notations.
 
 ### general:
 
@@ -155,3 +158,4 @@ if(){
 15. `arguments` are the actual values that were passed during the function call.
 16. there is `console.warn()`, `console.error()` and `console.table()`
 17. you can use the debugger either by breakpoints in sources tab inside the browser or by using the `debugger` keyword insid our code.
+18. there are multiple ways to listen to an even on browser `addEventListener` is the most famous. it takes 2 arguments, First the type of the event like 'click'..etc. and second the reaction to the event.
